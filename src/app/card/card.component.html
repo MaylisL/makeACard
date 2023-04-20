@@ -1,0 +1,11 @@
+<div class="card-container">
+    <div class="card-image-container">
+        <img [src]="user.imageSrc" alt="description image">
+    </div>
+    <div class="card-content-container">
+        <h2 class="title">{{ user.title }}</h2>
+        <p class="age">{{ user.age }}</p>
+        <p class="quote">{{ user.quote }}</p>
+        <input type="text" class="input-quote" [(ngModel)]="user.quote">
+    </div>
+</div>
