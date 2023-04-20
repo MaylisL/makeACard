@@ -8,8 +8,7 @@ import { User } from '../../models/user.model';
 })
 export class CardComponent {
   
-  user: User = new User("Hello John", 25, "",  "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeimages.com%2Ffr%2Fpremium-vector%2Fpeople-large-group-6392862&psig=AOvVaw0atbVCQ-lolx6upCvf0MVs&ust=1682089343003000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCQpKPduP4CFQAAAAAdAAAAABAD" )
-  
+  user: User = new User("Hello John", 25, "", "https://cdn-icons-png.flaticon.com/512/5363/5363451.png")
 
   constructor() {
    
