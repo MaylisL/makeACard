@@ -10,4 +10,6 @@ export class User {
         this.quote = quote;
         this.imageSrc = imageSrc;
     }
+
+    
 }

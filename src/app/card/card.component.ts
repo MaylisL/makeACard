@@ -14,6 +14,8 @@ export class CardComponent {
   constructor() {
    
   }
-
+  clearinput() {
+    this.user.quote = "";
+  }
 
 }
